@@ -1,5 +1,7 @@
 import React ,{ useState }from 'react'
+
 import PropTypes from 'prop-types'
+import TextField from '@material-ui/core/TextField'
 
 const AddCategory = ({categories,  setCategories } ) => {
     
@@ -21,8 +23,12 @@ const AddCategory = ({categories,  setCategories } ) => {
     return (
         <form onSubmit={handleSubmit}>
             <h3>Add Category</h3>
-            <input type="Text" onChange={handleText} value={newCategory} />
-            {/* <button onClick={addCategory}> Add </button> */}
+            <TextField 
+            fullWidth
+            onChange={handleText} 
+            label="Please Add the cartegory" 
+            value={newCategory}/>
+            
         </form>
     )
 }

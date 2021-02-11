@@ -1,10 +1,13 @@
-import React from 'react'
+import React , {Fragment}from 'react'
+
+import { CircularProgress} from '@material-ui/core';
 
 const LoadingStatus = ({isLoading}) => {
     return (
-        <div className="loading">
-            {isLoading && <img src={process.env.PUBLIC_URL + '/loading2.gif' } alt="cargando..." />  } 
-        </div>
+        <Fragment>
+        {isLoading && <CircularProgress  />}
+        </Fragment>
+
     )
 }
 

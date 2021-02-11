@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test GifGridItem Component should load the component Propperly 1`] = `
+<WithStyles(ForwardRef(Card))
+  className="makeStyles-root-1"
+>
+  <WithStyles(ForwardRef(CardMedia))
+    component="img"
+    height="140"
+    image="https://media3.giphy.com/"
+    title="Test"
+  />
+  <WithStyles(ForwardRef(CardContent))>
+    <p>
+      Test
+    </p>
+  </WithStyles(ForwardRef(CardContent))>
+</WithStyles(ForwardRef(Card))>
+`;

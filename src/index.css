@@ -1,42 +1,38 @@
-html, body {
-  padding: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
+html,
+body {
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.card-grid{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
 
+.card-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .card {
-
-  align-content: center;
-  border: 1px solid grey;
-  border-radius: 5px;
-  overflow: hidden;
-  margin: 10px;
- 
-  
+    align-content: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px;
 }
 
 .card p {
-   padding: 5px;
-   text-align: center;
+    padding: 5px;
+    text-align: center;
 }
 
 .card img {
-  width:200px;
-   height:200px;
-
-/*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
-    object-fit:cover
+    width: 200px;
+    height: 200px;
+    /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+    object-fit: cover
 }
-.loading img {
-  width:200px;
-   height:200px;
 
-/*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
-    object-fit:cover
+.loading img {
+    width: 200px;
+    height: 200px;
+    /*Scale down will take the necessary specified space that is 100px x 100px without stretching the image*/
+    object-fit: cover
 }

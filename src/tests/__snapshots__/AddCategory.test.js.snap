@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check Add category component should load Add category properly 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <h3>
+    Add Category
+  </h3>
+  <WithStyles(ForwardRef(TextField))
+    fullWidth={true}
+    label="Please Add the cartegory"
+    onChange={[Function]}
+    value=""
+  />
+</form>
+`;
